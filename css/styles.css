@@ -1,51 +1,58 @@
 nav img {
-    width:30px;
-    height: 30px;
+    width:25px;
+    height: 25px;
 }
 nav a {
     position: relative;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     display: flex;
-    align-items: center;
+    align-items:center;
     color: black;
     font-weight:450;
     gap: 5px;
+    font-size: 18px;
 }
 .logonav{
     width: 40px;
     height: 40px;
-    position:relative;
     margin: 0;
     justify-self: center;
+    margin-bottom: 15px;
 }
 nav {
     background-color: rgb(255, 255, 255);
     top:0;
     width: 100%;
     height: 80px;
-    align-items: center;
-    display: flex;
+    align-items: end;
     justify-content: space-between;
+    display: flex;
     border-bottom: 1px solid gray;
+
 }
 .anteslogo {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    flex: 1;
+    margin-bottom: 15px;
 }
 .despueslogo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width:auto; 
+    flex: 1;
+    align-items: end;
+    padding-bottom: 15px;
+
 }
 body{
     margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 * {
-    outline: 1px solid red;
+    outline: 0  px solid red;
 }
 .perfil {
     display: flex;
@@ -71,4 +78,27 @@ body{
     background-color: transparent;
     border-radius: 100%;
     border: none;
+}
+.añadir, .refrescar, .eliminar, .reportar, .ayuda {
+    margin: 20px 0;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    justify-self: center;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    justify-self: center;
+}
+.barradecategorias {
+    display: flex;
+    justify-content: space-around;
+    width: 99vw;
+}
+.indicador{
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 50vw;
 }
